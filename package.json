@@ -1,10 +1,10 @@
 {
-  "name": "babel-plugin-import",
+  "name": "light-babel-import",
   "version": "1.6.7",
-  "description": "Component modular import plugin for babel.",
+  "description": "轻量的按需加载库",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ant-design/babel-plugin-import"
+    "url": "https://github.com/rhymedys/LightUtilsBabelPluginImport.git"
   },
   "main": "lib/index.js",
   "scripts": {
@@ -18,10 +18,9 @@
     "lint"
   ],
   "keywords": [
-    "babel-plugin",
-    "antd"
+    "babel-plugin"
   ],
-  "author": "chencheng <sorrycc@gmail.com>",
+  "author": "Rhymedys <rhymedys@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.0.0-beta.34",
