@@ -1,6 +1,6 @@
 {
   "name": "light-babel-import",
-  "version": "1.6.7",
+  "version": "1.6.8",
   "description": "Modular build plugin for babel.",
   "repository": {
     "type": "git",

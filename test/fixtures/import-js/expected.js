@@ -1,6 +1,6 @@
 "use strict";
 
-var _generateUUID3 = _interopRequireDefault(require("light-utils/lib/_generateUUID"));
+var _generateUUID3 = _interopRequireDefault(require("light-utils/lib/_generateUUID.js"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
