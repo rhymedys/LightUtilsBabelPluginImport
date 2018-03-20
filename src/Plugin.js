@@ -65,6 +65,13 @@ export default class Plugin {
     return Object.assign({}, this.selectedMethods[methodName]);
   }
 
+  /**
+   * Expression处理
+   * @param {*} node
+   * @param {*} props
+   * @param {*} path
+   * @param {*} state
+   */
   buildExpressionHandler(node, props, path, state) {
     const file = (path && path.hub && path.hub.file) || (state && state.file);
     const types = this.types;
@@ -76,6 +83,13 @@ export default class Plugin {
     });
   }
 
+  /**
+   * Declarator处理
+   * @param {*} node
+   * @param {*} prop
+   * @param {*} path
+   * @param {*} state
+   */
   buildDeclaratorHandler(node, prop, path, state) {
     const file = (path && path.hub && path.hub.file) || (state && state.file);
     const types = this.types;
@@ -100,7 +114,6 @@ export default class Plugin {
 
   ImportDeclaration(path) {
     const { node } = path;
-
     // path maybe removed by prev instances.
     if (!node) return;
 
