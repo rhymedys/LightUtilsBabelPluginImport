@@ -12,7 +12,8 @@
     "test": "mocha --require @babel/register",
     "debug": "mocha --require @babel/register --require @babel/polyfill --no-timeouts",
     "lint": "eslint --ext .js src",
-    "coveralls": "cat ./coverage/lcov.info | coveralls"
+    "coveralls": "cat ./coverage/lcov.info | coveralls",
+    "release":"bash release.sh"
   },
   "pre-commit": [
     "lint"
