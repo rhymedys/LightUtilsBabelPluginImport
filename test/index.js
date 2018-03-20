@@ -34,9 +34,9 @@ describe('index', () => {
           plugin, {
             libraryName: 'light-utils',
             camel2DashComponentName: false,
-            customName(name,generateName){
-              return `${generateName}.js`
-            }
+            customName(name, generateName) {
+              return `${generateName}.js`;
+            },
           },
         ];
       }
