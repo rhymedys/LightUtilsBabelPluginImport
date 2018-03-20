@@ -2,7 +2,6 @@
 
 一个轻量的按需加载库
 
-[![NPM version](https://img.shields.io/npm/v/light-babel-import.svg)](https://npmjs.org/package/light-babel-import)
 [![NPM version](https://img.shields.io/npm/v/light-babel-import.svg?style=flat)](https://npmjs.org/package/light-babel-import)
 
 ----
